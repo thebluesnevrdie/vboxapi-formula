@@ -12,23 +12,23 @@
 ---
 Debian:
   pkg:
-    name: TEMPLATE-debian
-  config: /etc/TEMPLATE.d/custom.conf
+    name: vboxapi-debian
+  config: /etc/vboxapi.d/custom.conf
 
 RedHat:
   pkg:
-    name: TEMPLATE-redhat
-  config: /etc/TEMPLATE.conf
+    name: vboxapi-redhat
+  config: /etc/vboxapi.conf
 
 Suse:
   pkg:
-    name: TEMPLATE-suse
+    name: vboxapi-suse
 
 Gentoo: {}
 
 Arch:
   pkg:
-    name: TEMPLATE-arch
+    name: vboxapi-arch
   service:
     name: service-arch
 
